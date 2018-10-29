@@ -6,9 +6,7 @@
       <Todo @todoaction="done" />
     </div>
     <div>
-      実施済：{{ counter1 }}
-      <br>
-      <input type="submit" @click="done">
+      実施済タスク：{{ counter1 }}
     </div>
   </div>
 </template>
